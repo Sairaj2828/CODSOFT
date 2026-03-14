@@ -68,3 +68,10 @@ The trained model successfully predicts passenger survival using machine learnin
 
 ---
 
+## Internship Details
+**Internship:** CodSoft Data Science | Batch B84  
+**Date:** February 2026
+
+## 👨‍💻 Author
+Sairaj
+
