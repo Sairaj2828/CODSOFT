@@ -1,84 +1,70 @@
-Titanic Survival Prediction
-Project Overview
+# Titanic Survival Prediction 🚢
 
-This project predicts whether a passenger survived the Titanic disaster using machine learning. The model is trained on passenger data such as age, gender, ticket class, and fare to classify survival outcomes.
+## 📌 Project Overview
+This project uses Machine Learning to predict whether a passenger survived the Titanic disaster based on passenger information such as age, gender, passenger class, and fare.
 
-The project demonstrates data preprocessing, feature selection, model training, and evaluation using Python and Scikit-learn.
+The goal is to build a classification model that can learn patterns from historical Titanic passenger data and predict survival outcomes.
 
-Dataset
+---
 
-The dataset contains passenger details including:
+## 📊 Dataset
+The dataset contains information about Titanic passengers.
 
-PassengerId
+### Features
+- PassengerId
+- Pclass (Passenger Class)
+- Name
+- Sex
+- Age
+- SibSp (Number of siblings/spouses aboard)
+- Parch (Number of parents/children aboard)
+- Ticket
+- Fare
+- Cabin
+- Embarked
 
-Pclass (Passenger Class)
+### Target Variable
+- **Survived**
+  - 0 → Did not survive
+  - 1 → Survived
 
-Name
+---
 
-Sex
+## 🛠 Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
 
-Age
+---
 
-SibSp (Siblings/Spouses aboard)
+## 🤖 Machine Learning Model
+The model used for prediction:
 
-Parch (Parents/Children aboard)
+- Random Forest Classifier
 
-Ticket
+---
 
-Fare
+## ⚙️ Steps Performed
+1. Import required libraries
+2. Load the dataset
+3. Data preprocessing
+4. Handle missing values
+5. Encode categorical features
+6. Split dataset into training and testing sets
+7. Train the model
+8. Evaluate the model
 
-Cabin
+---
 
-Embarked
+## 📈 Evaluation Metrics
+- Accuracy Score
+- Classification Report
 
-Survived (Target Variable)
+---
 
-Target Variable:
+## 🎯 Result
+The trained model successfully predicts passenger survival using machine learning techniques.
 
-Survived
+---
 
-0 = Did Not Survive
-
-1 = Survived
-
-Technologies Used
-
-Python
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-Machine Learning Model
-
-Random Forest Classifier was used to train the model and predict passenger survival.
-
-Steps Performed
-
-Import libraries
-
-Load dataset
-
-Handle missing values
-
-Encode categorical variables
-
-Split dataset into training and testing sets
-
-Train Random Forest model
-
-Predict survival on test data
-
-Evaluate accuracy
-
-Evaluation Metrics
-
-Accuracy Score
-
-Classification Report
-
-Result
-
-The trained model successfully predicts survival of passengers with good accuracy using the available features.
