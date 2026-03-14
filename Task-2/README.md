@@ -66,3 +66,10 @@ The model accurately classifies iris flowers into their correct species based on
 
 ---
 
+## Internship Details
+**Internship:** CodSoft Data Science | Batch B84  
+**Date:** February 2026
+
+## 👨‍💻 Author
+Sairaj
+
